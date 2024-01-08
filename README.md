@@ -75,6 +75,8 @@ GPU          : GPU #0 NVIDIA GeForce RTX 2070 (36x64 cores) Grid(9216x1024)
  - To build with CUDA:
     ```sh
     $ make gpu=1 CCAP=35 all
+
+    for ccap value visit https://developer.nvidia.com/cuda-gpus
     ```
 ## License
 PubHunt is licensed under GPLv3.
